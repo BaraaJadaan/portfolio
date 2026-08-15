@@ -7,8 +7,8 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 Write-Host "2/3 Syncing master branch..." -ForegroundColor Cyan
-git add src/ public/ package.json deploy.ps1
-git commit -m "Update portfolio content from reference" -q 2>$null
+git add src/ public/ package.json deploy.ps1 README.md
+git commit -m "Update portfolio routing, README, and assets" -q 2>$null
 git push origin master -q
 
 Write-Host "3/3 Deploying build to gh-pages branch..." -ForegroundColor Cyan
