@@ -6,11 +6,9 @@ import OneForAll from "../../Assets/Projects/OneForAll.png";
 import UpHills from "../../Assets/Projects/UpHills.png";
 import Stocking from "../../Assets/Projects/Stocking.png";
 import BrandingMind from "../../Assets/Projects/BrandingMind.png";
-import NFTMarket from "../../Assets/Projects/NFTMarket.png";
 import LightingBuilding from "../../Assets/Projects/Lighting&Building.png";
 import GamerWiki from "../../Assets/Projects/GamerWiki.png";
 import Filmora from "../../Assets/Projects/Filmora.png";
-import Firebee from "../../Assets/Projects/Firebee.png";
 import Footer from "../Footer";
 
 
@@ -21,7 +19,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Recent <strong className="purple">Work </strong>
+          Personal <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few that I've worked on recently.
@@ -82,15 +80,6 @@ function Projects() {
               demoLink="https://lighting-building.vercel.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Firebee}
-              title="Firebee"
-              description="Responsive product landing page for Firebee, showcasing its features, pricing options, and customer benefits. The page is built with React and Chakra UI"
-              ghLink="https://github.com/BaraaJadaan/firebee"
-              demoLink="https://firebee-nine.vercel.app/"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -99,16 +88,6 @@ function Projects() {
               description="Modern landing page for a bikes leasing company done using pure CSS"
               ghLink="https://github.com/BaraaJadaan/UpHills"
               demoLink="https://baraajadaan.github.io/UpHills/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={NFTMarket}
-              title="NFT Marketplace"
-              description="A website inspired by a Figma design for a company that makes acquiring NFTs to be as easy as possible"
-              ghLink="https://github.com/BaraaJadaan/nft-market"
-              demoLink="https://baraajadaan.github.io/nft-market/"
             />
           </Col>
           

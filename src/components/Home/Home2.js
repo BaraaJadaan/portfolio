@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,31 +18,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I can say that I learned
-              some shenanigans, I guess... 🤷‍♂️
+              I am a passionate developer dedicated to building responsive, modern web applications and exploring intelligent AI solutions.
               <br />
               <br />
-              I like to create modern and creative&nbsp;
+              My core strengths lie in frontend engineering with&nbsp;
               <i>
-                <b className="purple">Web Apps</b> and
-                also exploring areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Computer Vision.
-                </b>
+                <b className="purple">JavaScript, TypeScript, and React.js</b>
               </i>
+              , crafting clean and interactive user experiences.
               <br />
               <br />
-              I apply my passion developing websites
-              with
+              I am also deeply interested in&nbsp;
               <i>
+                <b className="purple">Artificial Intelligence</b>, specifically focusing on{" "}
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Libraries and Frameworks
+                  Machine Learning and Computer Vision.
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Vue.js</b>
               </i>
             </p>
           </Col>
