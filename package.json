@@ -25,7 +25,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "powershell -ExecutionPolicy Bypass -File ./deploy.ps1",
+    "deploy:fast": "powershell -ExecutionPolicy Bypass -File ./deploy.ps1",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

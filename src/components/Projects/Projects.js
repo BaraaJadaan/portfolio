@@ -19,10 +19,67 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
+          Real-World & <strong className="purple">Production Projects </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Production systems, client platforms, and deployed AI applications.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "30px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              title="Rafiq Darbak (رفيق دربك)"
+              description="End-to-end Flutter mobility and ride-sharing app shipped across iOS and Android. Built with Supabase (PostgreSQL, RLS), real-time messaging, live location sharing, radius-based matching, CI/CD automation, and Shorebird OTA updates."
+              demoLink="https://baraajadaan.github.io/portfolio/"
+              demoText="Overview"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              title="Arabic Poetry RAG Agent"
+              description="Production semantic search & ReAct agent over 3.4M verses. Hybrid dense vector + BM25 search (LanceDB + Tantivy), Qwen3-Embedding, FastAPI backend with SSE token streaming, and bilingual RTL chat interface."
+              ghLink="https://github.com/BaraaJadaan"
+              demoLink="https://baraajadaan.github.io/poetry-rag/"
+              demoText="Live Demo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              title="ISP Customer & Network Suite"
+              description="Customer & Network Management Suite for a Danish ISP at TabTabGo. Built client onboarding portal and admin dashboard in React.js, along with a React Native companion mobile app, integrating complex RESTful APIs."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              title="Lumytic ERP / CMS / CRM"
+              description="Modular enterprise frontend platforms for ATC Systematic (Rafeed). Developed the public marketing website, CMS, and CRM systems for lighting manufacturers with shared reusable component architecture."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              title="Arabic Meter Classification"
+              description="Fine-tuned Qwen2.5-7B-Instruct using QLoRA via Unsloth to classify classical Arabic poetry meters (بحر). Merged adapters and exported quantized GGUF weights for lightweight local inference."
+              ghLink="https://github.com/BaraaJadaan"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              title="Build to Learn"
+              description="Developer learning tool released publicly on GitHub that generates comprehensive portfolio projects alongside companion deep-dive guides, interview Q&As, and architecture walkthroughs."
+              ghLink="https://github.com/BaraaJadaan"
+            />
+          </Col>
+        </Row>
+
+        <h1 className="project-heading" style={{ paddingTop: "50px" }}>
           Personal <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few that I've worked on recently.
+          Explore some of my creative web applications and tools.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">

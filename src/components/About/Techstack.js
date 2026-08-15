@@ -9,13 +9,19 @@ import {
 } from "react-icons/di";
 import {
   SiTypescript,
+  SiFlutter,
+  SiDart,
   SiNextdotjs,
-  SiTailwindcss,
+  SiFastapi,
+  SiSupabase,
+  SiPostgresql,
   SiPytorch,
   SiTensorflow,
   SiOpencv,
   SiScikitlearn,
   SiNodedotjs,
+  SiTailwindcss,
+  SiCsharp,
 } from "react-icons/si";
 import {
   FaVuejs
@@ -34,6 +40,12 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDart />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -41,6 +53,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFastapi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
@@ -55,6 +70,12 @@ function Techstack() {
         <SiScikitlearn />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiSupabase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiNodedotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -62,6 +83,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
