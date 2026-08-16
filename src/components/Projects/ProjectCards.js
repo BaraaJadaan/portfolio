@@ -7,17 +7,31 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      {props.imgPath ? (
-        <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      ) : (
-        <div style={{ height: "35px" }}></div>
+      {props.imgPath && (
+        <div style={{ overflow: "hidden", borderTopLeftRadius: "calc(0.375rem - 1px)", borderTopRightRadius: "calc(0.375rem - 1px)" }}>
+          <Card.Img
+            variant="top"
+            src={props.imgPath}
+            alt={props.title || "card-img"}
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              objectPosition: "top",
+              padding: "10px",
+              borderRadius: "16px",
+            }}
+          />
+        </div>
       )}
-      <Card.Body className="d-flex flex-column" style={props.imgPath ? {} : { paddingTop: "15px" }}>
-        <Card.Title style={props.imgPath ? { translate: '0 -50px' } : {}}>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify", flexGrow: 1, ...(props.imgPath ? { translate: '0 -50px' } : {}) }}>
+      <Card.Body className="d-flex flex-column" style={{ padding: "20px" }}>
+        <Card.Title style={{ fontWeight: "600", fontSize: "1.25em", marginBottom: "12px" }}>
+          {props.title}
+        </Card.Title>
+        <Card.Text style={{ textAlign: "justify", flexGrow: 1, color: "#dcdcdc", fontSize: "0.95em", lineHeight: "1.6" }}>
           {props.description}
         </Card.Text>
-        <div style={{ marginTop: "auto", paddingBottom: "10px", ...(props.imgPath ? { translate: '0 -50px' } : {}) }}>
+        <div style={{ marginTop: "auto", paddingTop: "15px" }}>
           {props.ghLink && (
             <Button variant="primary" href={props.ghLink} target="_blank">
               <BsGithub /> &nbsp;
