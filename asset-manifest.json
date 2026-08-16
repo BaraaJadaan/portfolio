@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5b7f2c01.css",
+    "main.js": "/portfolio/static/js/main.51638122.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/RafikDarbak.png": "/portfolio/static/media/RafikDarbak.8fbc76d7e81a5b17f431.png",
+    "static/media/Lumytic.png": "/portfolio/static/media/Lumytic.e4eecd2916fed55257ff.png",
+    "static/media/ai_resume_page_1.png": "/portfolio/static/media/ai_resume_page_1.d573b539437d1a0d605e.png",
+    "static/media/frontend_resume_page_1.png": "/portfolio/static/media/frontend_resume_page_1.dc9f0c39903ba4ab2c11.png",
+    "static/media/PoetryMeter.png": "/portfolio/static/media/PoetryMeter.8e950ef9e149f2a96f0b.png",
+    "static/media/ai_resume_page_2.png": "/portfolio/static/media/ai_resume_page_2.4a098bf7ee3c1cb0c47c.png",
+    "static/media/PoetryRAG.png": "/portfolio/static/media/PoetryRAG.e912325aa55fa2f39500.png",
+    "static/media/Filmora.png": "/portfolio/static/media/Filmora.216b3ad3726da9653e31.png",
+    "static/media/Lighting&Building.png": "/portfolio/static/media/Lighting&Building.ce18694c77c28199e852.png",
+    "static/media/UpHills.png": "/portfolio/static/media/UpHills.8e10014cd7be5c759594.png",
+    "static/media/GamerWiki.png": "/portfolio/static/media/GamerWiki.febefa15fd4998e0554a.png",
+    "static/media/home-main.svg": "/portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Stocking.png": "/portfolio/static/media/Stocking.205bc3f4ac1bafd12015.png",
+    "static/media/OneForAll.png": "/portfolio/static/media/OneForAll.c455bf6a8af051797f19.png",
+    "static/media/frontend_resume_page_2.png": "/portfolio/static/media/frontend_resume_page_2.6011b857170f0436b338.png",
+    "static/media/ISPCustomerSuite.png": "/portfolio/static/media/ISPCustomerSuite.26a3ebb69131308fb6c4.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.88db316643fbf942bc23.png",
+    "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/BrandingMind.png": "/portfolio/static/media/BrandingMind.fce3937dbf0425455738.png",
+    "static/media/avatar.svg": "/portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/Archibest.png": "/portfolio/static/media/Archibest.678438297596eaf8ada6.png",
+    "static/media/Baraa_Jadaan_AI_Engineer_Resume.pdf": "/portfolio/static/media/Baraa_Jadaan_AI_Engineer_Resume.58f489417dc2819afdb5.pdf",
+    "static/media/Baraa_Jadaan_Frontend_Resume.pdf": "/portfolio/static/media/Baraa_Jadaan_Frontend_Resume.901c6a091e038f5d5279.pdf",
+    "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/portfolio/index.html",
+    "main.5b7f2c01.css.map": "/portfolio/static/css/main.5b7f2c01.css.map",
+    "main.51638122.js.map": "/portfolio/static/js/main.51638122.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b7f2c01.css",
+    "static/js/main.51638122.js"
+  ]
+}
