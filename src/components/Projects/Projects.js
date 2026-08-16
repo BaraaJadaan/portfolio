@@ -11,7 +11,6 @@ import PoetryMeter from "../../Assets/Projects/PoetryMeter.png";
 import Lumytic from "../../Assets/Projects/Lumytic.png";
 import Archibest from "../../Assets/Projects/Archibest.png";
 import ISPCustomerSuite from "../../Assets/Projects/ISPCustomerSuite.png";
-import ISPMobileApp from "../../Assets/Projects/ISPMobileApp.png";
 
 // Personal Project Images
 import OneForAll from "../../Assets/Projects/OneForAll.png";
@@ -91,14 +90,6 @@ function Projects() {
                 imgPath={ISPCustomerSuite}
                 title="ISP Customer & Network Suite"
                 description="Customer & Network Management Suite for a Danish ISP at TabTabGo. Built client onboarding portal, admin dashboard in React.js, and network provisioning workflows integrating complex RESTful APIs."
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={ISPMobileApp}
-                title="ISP Customer Mobile Application"
-                description="Cross-platform React Native app for fiber internet customers managing subscriptions, WiFi router management via TR-069, real-time diagnostics, and offline-first state persistence using Redux."
               />
             </Col>
           </Row>
