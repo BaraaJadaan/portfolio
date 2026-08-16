@@ -13,23 +13,27 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ paddingBottom: "100px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "70px" }}>
           <Col
-            md={6}
-            style={{ paddingTop: "20px" }}
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "10px",
+              paddingBottom: "30px",
+            }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              <strong className="purple">Me?</strong>
+              Know <strong className="purple">Who I Am</strong>
             </h1>
             <Aboutcard />
           </Col>
           <Col
-            md={6}
+            md={5}
+            style={{ paddingTop: "20px", paddingBottom: "30px" }}
+            className="about-img d-flex align-items-center justify-content-center"
           >
-            <img style={{width:'100%'}} src={about} alt="guy working"></img>
-            
+            <img style={{ width: "100%", maxHeight: "400px", objectFit: "contain" }} src={about} alt="about illustration" />
           </Col>
-
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>

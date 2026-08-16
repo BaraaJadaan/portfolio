@@ -13,9 +13,10 @@ function ProjectCards(props) {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            height: "220px",
+            height: "200px",
             overflow: "hidden",
-            padding: "10px",
+            padding: "12px 12px 0 12px",
+            borderRadius: "16px 16px 0 0",
           }}
         >
           <Card.Img
@@ -23,10 +24,8 @@ function ProjectCards(props) {
             src={props.imgPath}
             alt={props.title || "card-img"}
             style={{
-              maxHeight: "100%",
-              maxWidth: "100%",
-              width: "auto",
-              height: "auto",
+              width: "100%",
+              height: "100%",
               objectFit: "contain",
               borderRadius: "8px",
             }}

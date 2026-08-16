@@ -3,7 +3,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -36,7 +36,7 @@ function Footer() {
                 <AiOutlineTwitter />
               </a>
             </li> */}
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/baraa-jadaan"
                 style={{ color: "white" }}
@@ -45,7 +45,7 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/baraa.jadaan/"
