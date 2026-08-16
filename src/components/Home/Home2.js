@@ -18,13 +18,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Software Engineer with a Bachelor's degree in <b className="purple">Artificial Intelligence and Information Technology</b> from Damascus University.
+              I am a Software Engineer & AI Specialist passionate about transforming complex ideas into high-performance, production-ready software.
               <br />
               <br />
-              I specialize in building production-grade <b className="purple">Web & Mobile Applications</b> with <b className="purple">React.js, TypeScript, and Flutter</b>, as well as engineering scalable <b className="purple">RAG & LLM Systems</b>.
+              My core focus spans across developing fluid <b className="purple">Web & Mobile Applications</b> with <b className="purple">React.js, TypeScript, Next.js, and Flutter</b>, alongside architecting intelligent <b className="purple">Generative AI & RAG Systems</b>.
               <br />
               <br />
-              From shipping cross-platform apps on the App Store and Google Play to architecting low-latency semantic search engines over millions of records, I focus on clean architecture, high performance, and great user experiences.
+              From publishing cross-platform apps on the App Store and Google Play to building low-latency semantic search engines over large datasets, I prioritize clean architecture, high throughput, and seamless user experiences.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

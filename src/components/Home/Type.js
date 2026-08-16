@@ -8,7 +8,6 @@ function Type() {
         strings: [
           "Frontend & Mobile Developer",
           "AI & Machine Learning Engineer",
-          "Flutter & React Developer",
           "RAG & LLM Systems Builder",
         ],
         autoStart: true,

@@ -8,30 +8,39 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       {props.imgPath && (
-        <div style={{ overflow: "hidden", borderTopLeftRadius: "calc(0.375rem - 1px)", borderTopRightRadius: "calc(0.375rem - 1px)" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "220px",
+            overflow: "hidden",
+            padding: "10px",
+          }}
+        >
           <Card.Img
             variant="top"
             src={props.imgPath}
             alt={props.title || "card-img"}
             style={{
-              width: "100%",
-              height: "200px",
-              objectFit: "cover",
-              objectPosition: "top",
-              padding: "10px",
-              borderRadius: "16px",
+              maxHeight: "100%",
+              maxWidth: "100%",
+              width: "auto",
+              height: "auto",
+              objectFit: "contain",
+              borderRadius: "8px",
             }}
           />
         </div>
       )}
       <Card.Body className="d-flex flex-column" style={{ padding: "20px" }}>
-        <Card.Title style={{ fontWeight: "600", fontSize: "1.25em", marginBottom: "12px" }}>
+        <Card.Title style={{ fontWeight: "600", fontSize: "1.25em", marginBottom: "12px", textAlign: "center" }}>
           {props.title}
         </Card.Title>
         <Card.Text style={{ textAlign: "justify", flexGrow: 1, color: "#dcdcdc", fontSize: "0.95em", lineHeight: "1.6" }}>
           {props.description}
         </Card.Text>
-        <div style={{ marginTop: "auto", paddingTop: "15px" }}>
+        <div style={{ marginTop: "auto", paddingTop: "15px", textAlign: "center" }}>
           {props.ghLink && (
             <Button variant="primary" href={props.ghLink} target="_blank">
               <BsGithub /> &nbsp;
