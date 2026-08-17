@@ -7,6 +7,8 @@ export default defineConfig({
   base: '/portfolio/',
   build: {
     outDir: 'build',
+    target: 'es2020',
+    cssCodeSplit: true,
   },
   server: {
     port: 3000,

@@ -1,15 +1,16 @@
 {
-  "short_name": "Portfolio",
+  "short_name": "Baraa Jadaan",
   "name": "Baraa Jadaan Portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "favicon.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/portfolio/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#1b1429",
+  "background_color": "#1b1429"
 }

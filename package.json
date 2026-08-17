@@ -32,6 +32,8 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
     "gh-pages": "^4.0.0",
+    "lighthouse": "^12.8.2",
+    "sharp": "^0.35.3",
     "vite": "^5.4.14"
   },
   "browserslist": {
