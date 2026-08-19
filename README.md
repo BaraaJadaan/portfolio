@@ -49,6 +49,7 @@ The portfolio is optimized according to modern web standards, achieving **100% s
 - **ISP Customer & Network Management Suite**: Full-featured admin dashboard and customer onboarding portal in React.js alongside a React Native mobile companion app for a Danish ISP (TabTabGo).
 - **Lumytic ERP / CMS / CRM**: Modular enterprise frontend platforms for ATC Systematic (Rafeed) lighting industry solutions.
 - **Arabic Poetry Meter Classification**: Fine-tuned Qwen2.5-7B with QLoRA/Unsloth for classical Arabic meter classification, quantized and exported to GGUF.
+- **Exam Proctoring System (Graduation Project)**: Real-time computer vision system integrating head-pose estimation, facial verification, eye-gaze tracking, and multi-class object detection to flag cheating behaviors during online examinations.
 - **Build to Learn**: Open-source developer skill that generates portfolio projects with companion deep-dive documents.
 
 ### Personal Web Applications

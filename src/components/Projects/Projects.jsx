@@ -8,6 +8,7 @@ import Footer from "../Footer";
 import RafikDarbak from "../../Assets/Projects/RafikDarbak.png";
 import PoetryRAG from "../../Assets/Projects/PoetryRAG.png";
 import PoetryMeter from "../../Assets/Projects/PoetryMeter.png";
+import ExamProctoring from "../../Assets/Projects/ExamProctoring.jpg";
 import Lumytic from "../../Assets/Projects/Lumytic.png";
 import Archibest from "../../Assets/Projects/Archibest.png";
 import ISPCustomerSuite from "../../Assets/Projects/ISPCustomerSuite.png";
@@ -62,6 +63,14 @@ function Projects() {
                 title="Arabic Meter Classification"
                 description="Fine-tuned Qwen2.5-7B-Instruct using QLoRA via Unsloth to classify classical Arabic poetry meters (بحور الشعر العربي). Achieved +32.0 point accuracy jump, resolved base-model bias, merged adapters, and exported quantized 4-bit GGUF for local inference."
                 ghLink="https://github.com/BaraaJadaan/poetry-fine-tuning"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={ExamProctoring}
+                title="Exam Proctoring System"
+                description="AI-powered graduation project engineered for automated academic integrity in remote examinations. Combines real-time computer vision pipelines for 3D head-pose estimation, facial recognition & verification, eye-gaze tracking, and multi-class object detection to identify unauthorized devices, absence, or suspicious behavior."
               />
             </Col>
 
