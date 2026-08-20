@@ -14,7 +14,7 @@ import Archibest from "../../Assets/Projects/Archibest.png";
 import ISPCustomerSuite from "../../Assets/Projects/ISPCustomerSuite.png";
 
 // Personal Project Images
-import OneForAll from "../../Assets/Projects/OneForAll.png";
+import OneForAll from "../../Assets/Projects/OneForAll.webp";
 import GamerWiki from "../../Assets/Projects/GamerWiki.png";
 import Stocking from "../../Assets/Projects/Stocking.png";
 import Filmora from "../../Assets/Projects/Filmora.png";
