@@ -16,7 +16,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Lazy-load non-landing pages to optimize initial bundle size & load performance
 const About = lazy(() => import("./components/About/About"));
 const Projects = lazy(() => import("./components/Projects/Projects"));
-const Resume = lazy(() => import("./components/Resume/ResumeNew"));
+// const Resume = lazy(() => import("./components/Resume/ResumeNew"));
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -41,7 +41,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/project" element={<Projects />} />
-              <Route path="/resume" element={<Resume />} />
+              {/* <Route path="/resume" element={<Resume />} /> */}
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </Suspense>
