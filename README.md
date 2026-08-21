@@ -56,7 +56,7 @@ The portfolio is optimized according to modern web standards, achieving **100% s
 - **GamerWiki**: Games discovery portal with Zustand, React Query, TypeScript, and RAWG API.
 - **Filmora**: Movie search portal with Redux, TMDB API, and auth-gated wishlists.
 - **OneForAll**: Points-based e-commerce platform with React and Redux.
-- **Stocking**: Real-time financial stock tracker with Alpha Vantage API.
+- **Stocks**: Real-time financial stock tracker with Alpha Vantage API.
 - **Branding Mind**, **LightingBuilding**, **UpHills**: Modern animated landing pages using GSAP and Tailwind CSS.
 
 ---

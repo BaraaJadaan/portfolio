@@ -87,7 +87,7 @@ _Still being refined — treat any numbers below as provisional/in-progress, not
 - **Filmora** — movie discovery portal. React, Redux, Material UI, TMDB API. Auth-gated wishlist functionality.
 - **Gamer Wiki** — games discovery portal. React, React Query (server-state caching), Zustand (client state), RAWG API. Filter by popularity/release date.
 - **OneForAll** — e-commerce site. React, Redux. Product browsing, purchases, points-based billing system.
-- **Stocking** — real-time stock price tracker + financial news. React, Alpha Vantage API.
+- **Stocks** — real-time stock price tracker + financial news. React, Alpha Vantage API.
 
 ## Earlier ML / Data Projects (academic / early portfolio)
 

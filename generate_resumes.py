@@ -189,7 +189,7 @@ frontend_sections = [
             {'type': 'subheading', 'text': "OneForAll — E-Commerce Platform &nbsp;<font color='#666666' size='7.5'>(React, Redux)</font>"},
             {'type': 'bullet', 'text': "Built a product browsing and purchase flow with a points-based billing/rewards system."},
             
-            {'type': 'subheading', 'text': "Stocking — Real-Time Stock Tracker &nbsp;<font color='#666666' size='7.5'>(React, Alpha Vantage API)</font>"},
+            {'type': 'subheading', 'text': "Stocks — Real-Time Stock Tracker &nbsp;<font color='#666666' size='7.5'>(React, Alpha Vantage API)</font>"},
             {'type': 'bullet', 'text': "Built a real-time stock price tracker and financial news feed."},
             
             {'type': 'subheading', 'text': "Arabic Poetry RAG Agent &nbsp;<font color='#666666' size='7.5'>(Vanilla HTML/CSS/JS, Python, FastAPI, LanceDB, Docker, MLflow)</font>"},

@@ -16,7 +16,7 @@ import ISPCustomerSuite from "../../Assets/Projects/ISPCustomerSuite.png";
 // Personal Project Images
 import OneForAll from "../../Assets/Projects/OneForAll.webp";
 import GamerWiki from "../../Assets/Projects/GamerWiki.png";
-import Stocking from "../../Assets/Projects/Stocking.png";
+import Stocks from "../../Assets/Projects/Stocks.png";
 import Filmora from "../../Assets/Projects/Filmora.png";
 import BrandingMind from "../../Assets/Projects/BrandingMind.png";
 import LightingBuilding from "../../Assets/Projects/Lighting&Building.png";
@@ -133,8 +133,8 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={Stocking}
-                title="Stocking"
+                imgPath={Stocks}
+                title="Stocks"
                 description="Search for a stock and display its historical price changes and the latest finance news."
                 ghLink="https://github.com/BaraaJadaan/Stocking"
                 demoLink="https://baraajadaan.github.io/Stocking/"
